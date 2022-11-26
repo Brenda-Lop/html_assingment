@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: orange;
+}
+
+.list {
+display: flex;
+justify-content: space-between;
+border: 4px solid black;
+border-radius: 20px;
+margin: 50px;
+background-color:cornflowerblue;
+}
+
+.box {
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.btn {
+    background-color: hsl(271, 76%, 53%);
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+.food {
+    background-color: #008000;
+}
+
+.toDo { 
+    background-color: rgb(255, 192, 203);
+}
+
+.places {
+    background-color: rgb(137, 101, 57);
+}
+
+.movies {
+    background-color: coral;
+}
+
+.hobbies {
+    background-color: hwb(240 41% 27%);
+}
+
+.headers-div {
+    background-color: blueviolet;
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+    min-width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+}
+
+.headers-div h1 {
+    color:#00ffff;
+}
+.headers-div h2 {
+    color:#e16d81
+}
+
+.headers-div h3 {
+    color: white;
+}
+.headers-div h4 {
+    color: hsl(60, 100%, 50%);
+}
+
+.about {
+    text-shadow: 2px 2px black;
+    font-size: 30px;
+}
